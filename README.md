@@ -14,3 +14,8 @@ Ce projet présente une démonstration simple mais complète de l’utilisation 
 
 - sudo apt update
 - sudo apt install puppet -y
+### 2. commande utiliser pour tester 
+- puppet apply --modulepath=modules --noop site.pp
+- sudo puppet apply --modulepath=modules site.pp
+- curl http://localhost
+

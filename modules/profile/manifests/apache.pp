@@ -5,7 +5,7 @@ class profile::apache {
 
   file { '/var/www/html/index.html':
     ensure  => file,
-    content => file('files/index.html'),
+    source  => 'puppet:///modules/profile/index.html',
     require => Package['apache2'],
   }
 
