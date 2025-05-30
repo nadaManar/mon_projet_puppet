@@ -10,3 +10,7 @@ Ce projet présente une démonstration simple mais complète de l’utilisation 
 - `files/index.html` : page d'accueil personnalisée
 
 
+### 1. Installer Puppet (sur Ubuntu)
+
+- sudo apt update
+- sudo apt install puppet -y
